@@ -19,8 +19,8 @@ const Summary: React.FC = () => {
 
       <div>
         <header>
-          <p>Saida</p>
-          <img src={outcomeImg} alt="Saida" />
+          <p>Saída</p>
+          <img src={outcomeImg} alt="Saída" />
         </header>
         <strong>R$-500,00</strong>
       </div>
