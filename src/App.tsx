@@ -3,7 +3,7 @@ import { GlobalStyle } from './styles/global';
 
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
-import { TransactionProvider } from './TransactionsContext';
+import { TransactionProvider } from './hooks/useTransactions';
 
 
 const App: React.FC = () => {
