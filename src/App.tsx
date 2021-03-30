@@ -3,19 +3,17 @@ import { GlobalStyle } from './styles/global';
 
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
-
+import { TransactionProvider } from './TransactionsContext';
 
 
 const App: React.FC = () => {
 
   return (
-    <>
+    <TransactionProvider>
       <Header />
       <Dashboard />
       <GlobalStyle />
-    </>
-
-
+    </TransactionProvider>
   );
 }
 

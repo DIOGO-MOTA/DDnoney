@@ -30,7 +30,8 @@ const Header: React.FC = () => {
 
         <NewTransactionModal
          isOpen={isNewTransactionModalOpen}
-         onRequestClose={handleCloseNewTransactionModal}/>
+         onRequestClose={handleCloseNewTransactionModal}
+         />
        
       </Content>
    </Container>
