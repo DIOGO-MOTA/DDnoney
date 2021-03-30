@@ -1,6 +1,6 @@
 #DT MONEY
 
-## Ecoleta Application using Reactjs
+## MONEY Application using Reactjs
 
 ## Web
 
